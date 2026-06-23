@@ -1,0 +1,23 @@
+# Ambiente virtual
+venv_dlib/
+.venv_dlib/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Arquivos de configuração local
+.env
+
+# Configurações do VS Code
+.vscode/
+
+# Logs
+*.log
+
+*.jpeg
+*.png
+
+leoFaces
+leoTeste
+
