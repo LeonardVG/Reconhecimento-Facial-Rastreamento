@@ -18,7 +18,7 @@ __pycache__/
 *.jpeg
 *.png
 
+*.mp4
+
 leoFaces
 leoTeste
-
-reconhecimento.py
