@@ -15,6 +15,8 @@ __pycache__/
 # Logs
 *.log
 
+lbph_leonardo.yml
+
 *.jpeg
 *.png
 *.jpg
