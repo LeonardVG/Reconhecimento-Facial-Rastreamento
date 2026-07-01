@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import time
 
-webcam = cv2.VideoCapture("test1.mp4")
-#webcam.set(cv2.CAP_PROP_POS_MSEC, 5000)                                                    #captura
+webcam = cv2.VideoCapture("videotest.mp4")
+webcam.set(cv2.CAP_PROP_POS_MSEC, 5000)                                                    #captura
 #webcam = cv2.VideoCapture("http://192.168.1.4:8080/video")
 
 detector_faces = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')  # detectar face
@@ -24,7 +24,7 @@ rastreando_face = False
 rastreando_body = False
 
 contador_reidentificacao = 0
-FRAMES_REIDENTIFICAR = 12
+FRAMES_REIDENTIFICAR = 10
 
 LIMITE_CONFIANCA = 60           # quanto menor a distancia, melhor
 
