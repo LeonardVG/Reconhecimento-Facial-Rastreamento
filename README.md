@@ -15,6 +15,8 @@ O código foi construído com base em princípios de Programação Orientada a O
 * **`pipeline.py`**: Define a classe principal `PipelineReconhecimento`, que herda de `Estados`. É responsável pela inicialização do sistema e pelo loop principal (captura de vídeo).
 * **`main.py`**: Ponto de entrada do programa. Apenas instancia o pipeline e executa o loop principal.
 
+* **`criar.py`**: script para criação do dataset de treinamento e/ou teste do reconhecedor LBPH.
+
 ---
 
 ## Conceito de Máquina de Estados
