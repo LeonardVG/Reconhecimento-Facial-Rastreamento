@@ -16,6 +16,7 @@ __pycache__/
 *.log
 
 lbph_leonardo.yml
+lbph_classifier_1classe_leonardo.yml
 
 *.jpeg
 *.png
