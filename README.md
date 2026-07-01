@@ -2,7 +2,7 @@
 
 Este repositório contém um sistema de visão computacional desenvolvido em Python com OpenCV. O objetivo do sistema é detectar faces ou corpos, reconhecer identidades conhecidas e manter o rastreamento contínuo dos indivíduos em vídeo.
 
-O modelo de reconhecimento facial utilizado (**LBPH**) foi **previamente treinado** utilizando o ambiente do Google Colab e importado para este pipeline local.
+O modelo de reconhecimento facial utilizado (**LBPH**) foi [**previamente treinado**](treinando_lbph_git.ipynb) utilizando o ambiente do Google Colab e importado para este pipeline local.
 
 ---
 
